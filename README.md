@@ -89,7 +89,8 @@ Run the program from the project root so it can access the `data/` directory.
 
 ## Author
 
-Ali Heidari
+**Ali Heidari**  
+Electrical Engineering student.
 
 ## License
 
