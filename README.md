@@ -32,7 +32,7 @@ The project focuses on applying core C programming concepts to a complete applic
 
 ```text
 HK-Cinema/
-├── cinema.c
+├── HK_Cinema.c
 ├── data/
 │   ├── users.txt
 │   ├── movies.txt
@@ -47,7 +47,7 @@ HK-Cinema/
 
 ### Single-File Design
 
-The project was developed under a **single-source-file constraint**. To keep the code organized and modular, `cinema.c` is divided into clearly defined sections for memory management, validation, file handling, authentication, entity management, ticketing, and reporting.
+The project was developed under a **single-source-file constraint**. To keep the code organized and modular, `HK_Cinema.c` is divided into clearly defined sections for memory management, validation, file handling, authentication, entity management, ticketing, and reporting.
 
 In a larger application, these sections could be separated into individual `.c` and `.h` modules.
 
@@ -56,19 +56,19 @@ In a larger application, these sections could be separated into individual `.c` 
 Compile with GCC:
 
 ```bash
-gcc cinema.c -o cinema
+gcc HK_Cinema.c -o cinema
 ```
 
 Run on Linux/macOS:
 
 ```bash
-./cinema
+./HK_Cinema
 ```
 
 Run on Windows:
 
 ```bash
-cinema.exe
+HK_Cinema.exe
 ```
 
 Run the program from the project root so it can access the `data/` directory.
