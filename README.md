@@ -56,7 +56,7 @@ In a larger application, these sections could be separated into individual `.c` 
 Compile with GCC:
 
 ```bash
-gcc HK_Cinema.c -o cinema
+gcc HK_Cinema.c -o HK_Cinema
 ```
 
 Run on Linux/macOS:
